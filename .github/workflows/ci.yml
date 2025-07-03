@@ -22,9 +22,7 @@ jobs:
           node-version: "16"
 
       - name: Install dependencies
-        run: |
-          npm install    # or use `npm install` if you're not using yarn
+        run: npm install
 
       - name: Run tests
-        run: |
-          npm test       # or `npm test` if using npm
+        run: npm test
