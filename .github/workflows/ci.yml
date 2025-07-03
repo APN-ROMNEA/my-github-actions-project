@@ -23,8 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          yarn install    # or use `npm install` if you're not using yarn
+          npm install    # or use `npm install` if you're not using yarn
 
       - name: Run tests
         run: |
-          yarn test       # or `npm test` if using npm
+          npm test       # or `npm test` if using npm
